@@ -1,0 +1,23 @@
+curl 'https://www.instagram.com/api/v1/web/login_page/' \
+  -H 'accept: */*' \
+  -H 'accept-language: ar-AE,ar;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -b 'csrftoken=ppkEJ5UbIFzPr9UJcyDtht; datr=HpNlaOPWy-c1wkeO0Xpk1s-5; ig_did=3FD1D806-0BC6-4F9F-8F1C-0D9F3A0F8D8B; dpr=1.25; mid=aGWTHgALAAGAtQt6aETV_fUVwrnS; ig_nrcb=1; ps_l=1; ps_n=1; wd=150x751' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.instagram.com/accounts/emailsignup/' \
+  -H 'sec-ch-prefers-color-scheme: dark' \
+  -H 'sec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"' \
+  -H 'sec-ch-ua-full-version-list: "Not)A;Brand";v="8.0.0.0", "Chromium";v="138.0.7204.97", "Google Chrome";v="138.0.7204.97"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-model: ""' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-ch-ua-platform-version: "10.0.0"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36' \
+  -H 'x-asbd-id: 359341' \
+  -H 'x-csrftoken: ppkEJ5UbIFzPr9UJcyDtht' \
+  -H 'x-ig-app-id: 936619743392459' \
+  -H 'x-ig-www-claim: 0' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-web-session-id: 11ximv:ehxi67:zd1hbz'

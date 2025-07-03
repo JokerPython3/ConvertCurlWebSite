@@ -1,0 +1,13 @@
+body{
+    background-color: #f0f8ff;
+}
+.ksj{
+    width: 100%;
+    height: 600px;
+    font-family: monospace;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+}
